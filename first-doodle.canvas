@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"1f6dac017891ae3f","type":"text","text":"Học hành lại đi","x":-179,"y":-77,"width":250,"height":60},
+		{"id":"e79a03c99878d58d","type":"file","file":"nhap-mon-tri-tue-nhan-tao/2023-10-15.md","x":135,"y":-402,"width":400,"height":400},
+		{"id":"c8a8b69a959722d1","type":"text","text":"Học hành cho đàng hoàng","x":-420,"y":-311,"width":133,"height":109,"color":"4"}
+	],
+	"edges":[
+		{"id":"cce9461751aedaf1","fromNode":"c8a8b69a959722d1","fromSide":"right","toNode":"1f6dac017891ae3f","toSide":"left"},
+		{"id":"0490b8828cb94b84","fromNode":"1f6dac017891ae3f","fromSide":"right","toNode":"e79a03c99878d58d","toSide":"left"},
+		{"id":"414f59f6a4eb5e2a","fromNode":"e79a03c99878d58d","fromSide":"top","toNode":"c8a8b69a959722d1","toSide":"top"}
+	]
+}
