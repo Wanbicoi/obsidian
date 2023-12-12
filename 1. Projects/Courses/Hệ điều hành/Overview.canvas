@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"8466490d94f9554a","type":"text","text":"Registers","x":300,"y":-280,"width":250,"height":50},
+		{"id":"2fbda50885d416c7","type":"text","text":"Cache","x":300,"y":-205,"width":250,"height":50},
+		{"id":"6d5f3828af788871","type":"text","text":"Bộ nhớ","x":-40,"y":-440,"width":250,"height":50},
+		{"id":"731e730a58819c6c","type":"text","text":"[[Ổ đĩa]]","x":300,"y":150,"width":250,"height":60},
+		{"id":"e82484d7c403c25a","type":"text","text":"Main memory","x":300,"y":40,"width":250,"height":50},
+		{"id":"7e5ea02b562cc3a9","type":"text","text":"ROM","x":300,"y":-120,"width":250,"height":50},
+		{"id":"96eb8f4c541669ef","type":"text","text":"RAM","x":300,"y":-40,"width":250,"height":50},
+		{"id":"ddd6d1243f2483a2","type":"text","text":"File System","x":-140,"y":-130,"width":250,"height":60},
+		{"id":"1a95344db444f42f","type":"text","text":"Architecture","x":-60,"y":-780,"width":250,"height":50},
+		{"id":"0160ff253ea9ed04","type":"text","text":"[[Loại hệ điều hành]]","x":-310,"y":-640,"width":250,"height":50},
+		{"id":"9f7702d26cfb0a41","type":"text","text":"Quy trình hoạt động cơ bản nhất","x":-800,"y":-500,"width":250,"height":60},
+		{"id":"ecf6595c9aecf29b","type":"text","text":"Giải mã","x":-600,"y":-160,"width":250,"height":60},
+		{"id":"eb17be03591feff6","type":"text","text":"Lấy lệnh","x":-600,"y":-280,"width":250,"height":60},
+		{"id":"9f477293931f3c75","type":"text","text":"","x":-515,"y":-390,"width":80,"height":70,"color":"4"},
+		{"id":"91ace7545f200f31","type":"text","text":"Traps\nExceptions\nInterrupts\nPolling","x":-860,"y":-120,"width":180,"height":140},
+		{"id":"5bf49e3202d80bf1","type":"text","text":"Thực thi","x":-600,"y":-40,"width":250,"height":60},
+		{"id":"b55d50ee92c5c850","x":-517,"y":80,"width":85,"height":60,"type":"text","text":"IO"},
+		{"id":"4833556a5aa345d0","x":-350,"y":80,"width":250,"height":60,"type":"text","text":"Polled\nDMA"},
+		{"id":"d96ead99678d446c","type":"text","text":"","x":-515,"y":200,"width":80,"height":70,"color":"4"}
+	],
+	"edges":[
+		{"id":"4cc5c75b237a0383","fromNode":"6d5f3828af788871","fromSide":"bottom","toNode":"ddd6d1243f2483a2","toSide":"top"},
+		{"id":"22ffbc054f61ba8d","fromNode":"8466490d94f9554a","fromSide":"bottom","toNode":"2fbda50885d416c7","toSide":"top"},
+		{"id":"59901780c1c4e4d4","fromNode":"2fbda50885d416c7","fromSide":"bottom","toNode":"7e5ea02b562cc3a9","toSide":"top"},
+		{"id":"291ec423b94b9f78","fromNode":"e82484d7c403c25a","fromSide":"bottom","toNode":"731e730a58819c6c","toSide":"top"},
+		{"id":"9b874b53058a5f89","fromNode":"6d5f3828af788871","fromSide":"bottom","toNode":"8466490d94f9554a","toSide":"top"},
+		{"id":"61de7d1ce538080d","fromNode":"7e5ea02b562cc3a9","fromSide":"bottom","toNode":"96eb8f4c541669ef","toSide":"top"},
+		{"id":"88d2a718e8054856","fromNode":"96eb8f4c541669ef","fromSide":"bottom","toNode":"e82484d7c403c25a","toSide":"top"},
+		{"id":"0b8b80c84c3c99d8","fromNode":"ecf6595c9aecf29b","fromSide":"bottom","toNode":"5bf49e3202d80bf1","toSide":"top"},
+		{"id":"86a8f49e3a535569","fromNode":"eb17be03591feff6","fromSide":"bottom","toNode":"ecf6595c9aecf29b","toSide":"top"},
+		{"id":"e7b8e68ea491b720","fromNode":"9f477293931f3c75","fromSide":"bottom","toNode":"eb17be03591feff6","toSide":"top"},
+		{"id":"124080139b5c645d","fromNode":"5bf49e3202d80bf1","fromSide":"left","toNode":"91ace7545f200f31","toSide":"right"},
+		{"id":"7ca0a0a179fb3756","fromNode":"91ace7545f200f31","fromSide":"bottom","toNode":"d96ead99678d446c","toSide":"left"},
+		{"id":"f2e7c83997a4ca74","fromNode":"91ace7545f200f31","fromSide":"top","toNode":"9f477293931f3c75","toSide":"left"},
+		{"id":"9b715ef0093158a9","fromNode":"5bf49e3202d80bf1","fromSide":"bottom","toNode":"b55d50ee92c5c850","toSide":"top"},
+		{"id":"2cfbf0cbcdfb7853","fromNode":"b55d50ee92c5c850","fromSide":"bottom","toNode":"d96ead99678d446c","toSide":"top"},
+		{"id":"724ccf44661fe36d","fromNode":"b55d50ee92c5c850","fromSide":"right","toNode":"4833556a5aa345d0","toSide":"left"}
+	]
+}

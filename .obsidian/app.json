@@ -1,1 +1,9 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "vimMode": false,
+  "spellcheck": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true
+}

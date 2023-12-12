@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"a09bc2ccb5be4215","type":"text","text":"1. [[Projects]]","x":-140,"y":-580,"width":250,"height":50,"color":"1"},
+		{"id":"8fc3c5597f2236f6","type":"text","text":"3. [[Resources]]","x":-460,"y":-420,"width":250,"height":50,"color":"2"},
+		{"id":"093323ff378bcdfe","type":"text","text":"4. [[Archived]]\n","x":-210,"y":40,"width":250,"height":50},
+		{"id":"fa47f47d148e7e9a","type":"text","text":"2. [[Areas]]","x":200,"y":-370,"width":250,"height":50,"color":"6"}
+	],
+	"edges":[
+		{"id":"5ddd8bae5fac27f2","fromNode":"a09bc2ccb5be4215","fromSide":"right","toNode":"fa47f47d148e7e9a","toSide":"top"},
+		{"id":"3ba2fd023b6641e6","fromNode":"a09bc2ccb5be4215","fromSide":"left","toNode":"8fc3c5597f2236f6","toSide":"top"},
+		{"id":"e48e348e50b641e5","fromNode":"8fc3c5597f2236f6","fromSide":"right","toNode":"fa47f47d148e7e9a","toSide":"left","label":"organize"},
+		{"id":"c177ecfdb06265db","fromNode":"fa47f47d148e7e9a","fromSide":"bottom","toNode":"093323ff378bcdfe","toSide":"top"},
+		{"id":"af9f8730c80c36a1","fromNode":"8fc3c5597f2236f6","fromSide":"bottom","toNode":"093323ff378bcdfe","toSide":"top"},
+		{"id":"023845b0a944f0c5","fromNode":"8fc3c5597f2236f6","fromSide":"top","toNode":"a09bc2ccb5be4215","toSide":"left"},
+		{"id":"6b4ec56eae2a293c","fromNode":"fa47f47d148e7e9a","fromSide":"top","toNode":"a09bc2ccb5be4215","toSide":"right"},
+		{"id":"94e2098d4647c8d2","fromNode":"a09bc2ccb5be4215","fromSide":"left","toNode":"093323ff378bcdfe","toSide":"top"}
+	]
+}

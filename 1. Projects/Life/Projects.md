@@ -1,0 +1,2 @@
+- P.A.R.A are knowlegde management system based on Projects.
+- So this is a place where you can save any things/project happening in your life.

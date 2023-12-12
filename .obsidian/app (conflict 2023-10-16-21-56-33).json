@@ -1,0 +1,8 @@
+{
+  "mobilePullAction": "command-palette:open",
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}

@@ -1,0 +1,1 @@
+Dùng để khởi động hệ thống. [[Bootstrap]] của máy tính sẽ dùng phần này để khởi động hệ thống.

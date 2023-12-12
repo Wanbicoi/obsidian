@@ -1,0 +1,1 @@
+Critical section (miền găng) là đoạn code đọc/ghi data lên [[shared memory]]

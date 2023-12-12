@@ -1,0 +1,1 @@
+Là vùng nhớ dùng **chung** cho tất cả các chương trình đang chạy. Mục đích là để giao tiếp giữa các chương trình với nhau.

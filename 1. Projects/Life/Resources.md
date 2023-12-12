@@ -1,0 +1,8 @@
+- Save any thing you feed great or any thing you will watch later
+- Ex:
+	- News 
+	- Ideas 
+	- Podcast
+	- Motivations
+	- Films
+	- Musics
