@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"9452a3b6d6c2d010","type":"group","x":-460,"y":-700,"width":290,"height":440,"label":"Tree"},
+		{"id":"24907c767bced501","type":"group","x":360,"y":-680,"width":310,"height":200,"label":"Đồ thị"},
+		{"id":"15cc89949f91f7d8","type":"text","text":"[[Self Balanced Tree]]","x":-440,"y":-680,"width":235,"height":60},
+		{"id":"4fee658477cb92ef","type":"text","text":"Lowest Common Ancestor","x":-440,"y":-430,"width":195,"height":60},
+		{"id":"a298435c0afdd23a","type":"text","text":"[[Trie]]","x":-440,"y":-340,"width":150,"height":50},
+		{"id":"9ef62c1842494ad9","type":"text","text":"[[Binary Indexed Tree (Fenwich Tree)]]\n\n","x":-440,"y":-510,"width":250,"height":60},
+		{"id":"f61fa401501229f9","type":"text","text":"Segment Tree","x":-440,"y":-595,"width":200,"height":50},
+		{"id":"a0519864f92bb81b","type":"text","text":"Searching & Sorting","x":-190,"y":-830,"width":250,"height":50},
+		{"id":"d087ddf7032a896b","type":"text","text":"PrefixSum","x":125,"y":-955,"width":250,"height":50},
+		{"id":"e4e3fb7c81df1618","type":"text","text":"","x":40,"y":-610,"width":95,"height":100,"color":"3"},
+		{"id":"40dada4cde320fdf","type":"text","text":"Quy hoạch động","x":-115,"y":-375,"width":250,"height":60},
+		{"id":"bc18bb067dca1ab6","type":"text","text":"2 con trỏ","x":338,"y":-810,"width":250,"height":60},
+		{"id":"580ca30d4a412fe9","type":"text","text":"Stack, Queue, Deque","x":375,"y":-215,"width":250,"height":60},
+		{"id":"3de67d29ecb17f03","type":"text","text":"Tìm chu trình trên đồ thị (Euler) / Sắp xếp topo","x":375,"y":-95,"width":250,"height":60},
+		{"id":"7f7077cc43bea28e","type":"text","text":"Singly Linked List, Doubly Linked List, Skip List","x":375,"y":10,"width":260,"height":80},
+		{"id":"85cb561d00b46b60","type":"text","text":"Kruskal, Prim","x":470,"y":-560,"width":180,"height":50},
+		{"id":"519669b1bbea02ab","type":"text","text":"Luồng cực đại / Cặp ghép","x":380,"y":-660,"width":270,"height":60},
+		{"id":"6a0d81f0d5780d26","type":"text","text":"[[SQRT Decomposition]]\n\n","x":310,"y":-450,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"92824570b14cead1","fromNode":"e4e3fb7c81df1618","fromSide":"left","toNode":"9452a3b6d6c2d010","toSide":"right"},
+		{"id":"716f5dbef7ef3581","fromNode":"e4e3fb7c81df1618","fromSide":"right","toNode":"24907c767bced501","toSide":"left"},
+		{"id":"1142f3c80d8d0af1","fromNode":"e4e3fb7c81df1618","fromSide":"right","toNode":"bc18bb067dca1ab6","toSide":"left"},
+		{"id":"c838bc2f302187c2","fromNode":"e4e3fb7c81df1618","fromSide":"top","toNode":"a0519864f92bb81b","toSide":"bottom"},
+		{"id":"2b50ce9f6a51acfe","fromNode":"e4e3fb7c81df1618","fromSide":"bottom","toNode":"40dada4cde320fdf","toSide":"top"},
+		{"id":"9df0700eee309f24","fromNode":"e4e3fb7c81df1618","fromSide":"bottom","toNode":"6a0d81f0d5780d26","toSide":"left"},
+		{"id":"11059de193d617ab","fromNode":"e4e3fb7c81df1618","fromSide":"top","toNode":"d087ddf7032a896b","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"89ec1230c8cda89d","type":"group","x":80,"y":-720,"width":1220,"height":680,"color":"6","label":"CPU"},
+		{"id":"7f7bb9de9aeccc18","type":"group","x":140,"y":-620,"width":580,"height":500,"label":"Multiprograming"},
+		{"id":"92aef2ebde96216a","type":"group","x":760,"y":-620,"width":472,"height":500,"label":"Time-sharing"},
+		{"id":"8abf11db2eb34623","type":"group","x":200,"y":-260,"width":500,"height":120,"label":"Multithread"},
+		{"id":"013b21a5ab9c5f5b","type":"text","text":"1 Chương trình","x":286,"y":-600,"width":180,"height":60,"color":"3"},
+		{"id":"8b8ebe3846b0c49f","type":"text","text":"Thread","x":160,"y":-460,"width":126,"height":60},
+		{"id":"b9f75e7ce7bece09","type":"text","text":"Thread","x":313,"y":-460,"width":126,"height":60},
+		{"id":"85c5759c87fb371b","type":"text","text":"Thread","x":466,"y":-460,"width":126,"height":60},
+		{"id":"fe2c5abdaf4cf893","type":"text","text":"1 Chương trình","x":412,"y":-340,"width":180,"height":60,"color":"3"},
+		{"id":"3bf8bc8dab4a7ba6","type":"text","text":"Thread","x":260,"y":-220,"width":126,"height":60},
+		{"id":"5cccedddeef1cd78","type":"text","text":"Thread","x":560,"y":-220,"width":126,"height":60},
+		{"id":"16d548cb37e4ccb8","type":"text","text":"Thread","x":412,"y":-220,"width":126,"height":60},
+		{"id":"7b224202f12d4021","type":"text","text":"Thread","x":933,"y":-460,"width":126,"height":60},
+		{"id":"e19c8b5177a25585","type":"text","text":"Thread","x":1086,"y":-460,"width":126,"height":60},
+		{"id":"726e9f928089a9c7","type":"text","text":"1 Chương trình","x":906,"y":-340,"width":180,"height":60,"color":"3"},
+		{"id":"2946a200af046aa1","type":"text","text":"Thread","x":933,"y":-200,"width":126,"height":60},
+		{"id":"12162f50b403f56c","type":"text","text":"Thread","x":1086,"y":-200,"width":126,"height":60},
+		{"id":"0e0d2771847fa428","type":"text","text":"Thread","x":780,"y":-200,"width":126,"height":60},
+		{"id":"48ef94593d407434","type":"text","text":"1 Chương trình","x":906,"y":-600,"width":180,"height":60,"color":"3"},
+		{"id":"fd255372a30460d4","type":"text","text":"Thread","x":780,"y":-460,"width":126,"height":60},
+		{"id":"eb9fb939bf1c332a","type":"file","file":"1. Projects/Courses/Hệ điều hành/Loại kỹ thuật OS.md","x":-440,"y":-1040,"width":400,"height":500}
+	],
+	"edges":[
+		{"id":"f2ff44917c7e1f62","fromNode":"fe2c5abdaf4cf893","fromSide":"bottom","toNode":"3bf8bc8dab4a7ba6","toSide":"top"},
+		{"id":"e58912e603b0ffa5","fromNode":"fe2c5abdaf4cf893","fromSide":"bottom","toNode":"16d548cb37e4ccb8","toSide":"top"},
+		{"id":"3c0d78d3bf3fa015","fromNode":"fe2c5abdaf4cf893","fromSide":"bottom","toNode":"5cccedddeef1cd78","toSide":"top"},
+		{"id":"52b9bc15426abeed","fromNode":"726e9f928089a9c7","fromSide":"bottom","toNode":"0e0d2771847fa428","toSide":"top"},
+		{"id":"0cb20f7fab75edaa","fromNode":"726e9f928089a9c7","fromSide":"bottom","toNode":"2946a200af046aa1","toSide":"top"},
+		{"id":"d7b06ef82a348958","fromNode":"726e9f928089a9c7","fromSide":"bottom","toNode":"12162f50b403f56c","toSide":"top"},
+		{"id":"65b908c69ad06475","fromNode":"013b21a5ab9c5f5b","fromSide":"bottom","toNode":"8b8ebe3846b0c49f","toSide":"top"},
+		{"id":"77b8400e97893040","fromNode":"013b21a5ab9c5f5b","fromSide":"bottom","toNode":"b9f75e7ce7bece09","toSide":"top"},
+		{"id":"e61ef5dc06a1d058","fromNode":"013b21a5ab9c5f5b","fromSide":"bottom","toNode":"85c5759c87fb371b","toSide":"top"},
+		{"id":"8719ee6425cf755c","fromNode":"48ef94593d407434","fromSide":"bottom","toNode":"fd255372a30460d4","toSide":"top"},
+		{"id":"393cce4dec204163","fromNode":"48ef94593d407434","fromSide":"bottom","toNode":"7b224202f12d4021","toSide":"top"},
+		{"id":"d750305d81b9da5c","fromNode":"48ef94593d407434","fromSide":"bottom","toNode":"e19c8b5177a25585","toSide":"top"}
+	]
+}
